@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+import { link } from "../assets/index";
 
 const FeedbackCard = ({
   id,
@@ -13,6 +14,7 @@ const FeedbackCard = ({
   name,
   designation,
   company,
+  certificate,
   image,
 }) => (
   <motion.div
@@ -31,17 +33,31 @@ const FeedbackCard = ({
               <span className="blue-text-gradient">@</span> {name}
             </a>
           </p>
-          <p className="mt-1 text-secondary text-[12px]">
-            <a href={company}>{designation}</a>
-          </p>
+          <p className="mt-1 text-secondary text-[12px]">{designation}</p>
         </div>
 
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className="w-10 h-10 rounded-full object-cover"
-        />
+        <a href={company}>
+          <img
+            src={image}
+            alt={`feedback_by-${name}`}
+            className="w-10 h-10 rounded-full object-cover"
+          />
+        </a>
       </div>
+    </div>
+    <div className="font-medium text-[15px] mt-5">
+      <span
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <a href={certificate} style={{ display: "flex", alignItems: "center" }}>
+          <span>View Credential</span>
+          <img className="w-8 h-8" src={link} alt="Link" />
+        </a>
+      </span>
     </div>
   </motion.div>
 );

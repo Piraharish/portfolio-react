@@ -7,22 +7,22 @@ const Footer = () => {
       <a href="mailto:piraharish.s@gmail.com">
         <img
           src={email}
-          alt="LinkedIn"
-          className="w-7 h-7 mx-2 cursor-pointer"
+          alt="Email"
+          className="social-icon w-7 h-7 mx-2 cursor-pointer"
         />
       </a>
       <a href="https://github.com/Piraharish">
         <img
           src={github3d}
           alt="Github"
-          className="w-9 h-9 mx-2 cursor-pointer"
+          className="social-icon w-9 h-9 mx-2 cursor-pointer"
         />
       </a>
       <a href="https://www.linkedin.com/in/piraharish">
         <img
           src={linkedin3d}
           alt="LinkedIn"
-          className="w-9 h-9 mx-2 cursor-pointer"
+          className="social-icon w-9 h-9 mx-2 cursor-pointer"
         />
       </a>
     </div>

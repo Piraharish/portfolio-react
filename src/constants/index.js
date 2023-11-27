@@ -16,16 +16,17 @@ import {
   sass,
   vhnsn,
   shasc,
+  sumai,
   weather,
+  learnershub,
   blog,
+  ecommerce,
   freeCodeCamp,
   guvi,
   scaler,
   greatlearning,
-  ecommerce,
   django,
   python,
-  learnershub,
 } from "../assets";
 
 export const navLinks = [
@@ -146,32 +147,6 @@ const experiences = [
       "I am excited to apply my mathematical and analytical skills in a dynamic and challenging professional environment.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: ,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
@@ -181,7 +156,9 @@ const testimonials = [
       "From this Course I gained a lot about React, Redux, and other libraries and certified by building 5 hands on projects.",
     name: "freeCodeCamp",
     designation: "Front End Development Libraries",
-    company: "https://www.freecodecamp.org/certification/Piraharish/front-end-development-libraries",
+    company: "https://www.freecodecamp.org/",
+    certificate:
+      "https://www.freecodecamp.org/certification/Piraharish/front-end-development-libraries",
     image: freeCodeCamp,
   },
   {
@@ -190,7 +167,8 @@ const testimonials = [
       "I've never learnt like this from any other courses. The depth about hosting a website to live, user authentication are insane.",
     name: "GUVI",
     designation: "Full Stack Development 101",
-    company: "https://www.guvi.in/verify-certificate?id=99105y8QP0jJ689u0E",
+    company: "https://www.guvi.in/",
+    certificate: "https://www.guvi.in/verify-certificate?id=99105y8QP0jJ689u0E",
     image: guvi,
   },
   {
@@ -199,7 +177,8 @@ const testimonials = [
       "Apart from playing with chatGPT, Through this course, I've learned how to prompt, train, and get the desired output from an AI.",
     name: "GUVI",
     designation: "Chatgpt for Everyone",
-    company: "https://www.guvi.in/verify-certificate?id=414w88fc06o6mn1919",
+    company: "https://www.guvi.in/",
+    certificate: "https://www.guvi.in/verify-certificate?id=414w88fc06o6mn1919",
     image: guvi,
   },
   {
@@ -208,7 +187,9 @@ const testimonials = [
       "Through this tutorial, I've gone through a 9 modules,and 8 challenges. At the end I gathered some ideas on JavaScript.",
     name: "Scaler",
     designation: "Unlocking the Power of JavaScript",
-    company: "https://drive.google.com/file/d/1BVPekMyPpBno5uDJNo6nMcyhlQcUvTg1/view?usp=sharing",
+    company: "https://www.scaler.com/academy/",
+    certificate:
+      "https://drive.google.com/file/d/1BVPekMyPpBno5uDJNo6nMcyhlQcUvTg1/view?usp=sharing",
     image: scaler,
   },
   {
@@ -217,21 +198,47 @@ const testimonials = [
       "After finishing this tutorial, I've got a strong knowledge in python packages like pandas, numpy, and MySQL for Database Management.",
     name: "Scaler",
     designation: "Python and SQL for Data Science",
-    company: "https://drive.google.com/file/d/1H3ZQ1s8jpD__a2ulfOMjH2KS10HvM11u/view?usp=sharing",
+    company: "https://www.scaler.com/academy/",
+    certificate:
+      "https://drive.google.com/file/d/1H3ZQ1s8jpD__a2ulfOMjH2KS10HvM11u/view?usp=sharing",
     image: scaler,
   },
   {
-    id:6,
+    id: 6,
     testimonial:
       "Every one starts from the beginning, like that this tutorial laid the foundation for my knowledge in Python Programming.",
     name: "Great Learning",
     designation: "Python for Machine Learning",
-    company: "https://drive.google.com/file/d/1T9mi06kw7MO7bRHcuZCwZZ7ye2B4P7iJ/view?usp=sharing",
+    company: "https://olympus.mygreatlearning.com/",
+    certificate:
+      "https://drive.google.com/file/d/1T9mi06kw7MO7bRHcuZCwZZ7ye2B4P7iJ/view?usp=sharing",
     image: greatlearning,
   },
 ];
 
 const projects = [
+  {
+    name: "SumAI",
+    description:
+      "A web-based responsive weather platform built using reactjs, enabling users to input article URLs and obtain concise summaries with a single click. Ensured responsiveness across various devices.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RapidAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sumai,
+    source_code_link: "https://github.com/Piraharish/AI-Summarizer",
+    live_link: "https://sumai-aisummarizer.netlify.app/",
+  },
   {
     name: "Forecastify",
     description:
@@ -256,7 +263,8 @@ const projects = [
   },
   {
     name: "Learners Hub",
-    description:"An interactive and responsive front end design for a learning platform. Built using HTML, Bootstrap 5, CSS, and animate on scroll(aos) for scrolling animation. It's not functional, only contains the front end design.",
+    description:
+      "An interactive and responsive front end design for a learning platform. Built using HTML, Bootstrap 5, CSS, and animate on scroll(aos) for scrolling animation. It's not functional, only contains the front end design.",
     tags: [
       {
         name: "html",

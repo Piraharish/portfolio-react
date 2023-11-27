@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import graduate from "./graduate.png";
 import frontenddev from "./frontenddev.png";
 import backenddev from "./backenddev.png";
@@ -29,7 +29,9 @@ import freeCodeCamp from "./freeCodeCamp.jpg";
 import guvi from "./guvi.png";
 import scaler from "./scaler.png";
 import greatlearning from "./greatlearning.jpg";
+import link from "./link.png"
 
+import sumai from "./sumai.png";
 import weather from "./weather.png";
 import learnershub from "./learnershub.png";
 import blog from "./blog.png";
@@ -68,6 +70,8 @@ export {
   guvi,
   scaler,
   greatlearning,
+  link,
+  sumai,
   weather,
   learnershub,
   blog,
